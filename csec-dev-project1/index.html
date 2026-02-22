@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title-container">
+                <span class="title-icon">✓</span>
+                <h1>To-Do List</h1>
+            </div>
+            <p class="subtitle">Stay organized and productive</p>
+        </header>
+
+        <div class="input-group">
+            <input type="text" placeholder="Add a new task...">
+            <button class="btn-add">+ Add</button>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number active-color">3</div>
+                <div class="stat-label">Active</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number completed-color">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number total-color">3</div>
+                <div class="stat-label">Total</div>
+            </div>
+        </div>
+
+        <ul class="task-list">
+            <li class="task-item">
+                <div class="task-left">
+                    <div class="custom-checkbox"></div>
+                    <span class="task-text">Welcome to your to-do list!</span>
+                </div>
+                <div class="task-actions show-actions">
+                    <button class="btn-edit">✎</button>
+                    <button class="btn-delete">🗑</button>
+                </div>
+            </li>
+
+            <li class="task-item">
+                <div class="task-left">
+                    <div class="custom-checkbox"></div>
+                    <span class="task-text">Click the checkbox to mark as complete</span>
+                </div>
+                <div class="task-actions">
+                    <button class="btn-edit">✎</button>
+                    <button class="btn-delete">🗑</button>
+                </div>
+            </li>
+
+            <li class="task-item">
+                <div class="task-left">
+                    <div class="custom-checkbox"></div>
+                    <span class="task-text">Hover to delete items</span>
+                </div>
+                <div class="task-actions">
+                    <button class="btn-edit">✎</button>
+                    <button class="btn-delete">🗑</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
